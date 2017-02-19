@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.umar159.mymaparea.MapsActivity" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp">
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nearest Toilets"
+        android:id="@+id/toilets"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:background="#704e4e"
+        android:longClickable="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nearest Gas Station"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="155dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:background="#704e4e"
+        android:longClickable="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/gstation" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Parking"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="210dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:background="#704e4e"
+        android:longClickable="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/park" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nearest FoodStalls"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="265dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:background="#704e4e"
+        android:longClickable="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/fstalls" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="320dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:background="#704e4e"
+        android:longClickable="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/settings" />
+
+
+</FrameLayout>

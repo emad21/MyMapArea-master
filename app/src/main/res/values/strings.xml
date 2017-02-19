@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyMapArea</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_another_maps">Map</string>
+    <string name="title_activity_toilet_data">Toilet_data</string>
+    <string name="title_activity_get_data">GetDataActivity</string>
+    <string name="title_activity_list_map">ListMapActivity</string>
+    <string name="title_activity_toilets_maps">Map</string>
+    <string name="title_activity_only_list_place">OnlyListPlaceActivity</string>
+    <string name="title_activity_toilet_rate">ToiletRateActivity</string>
+</resources>
